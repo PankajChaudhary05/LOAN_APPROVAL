@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/static/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style1.css" />
+    <title>LoanTec</title>
+    <div class="content">
+      {% block content %}{% endblock %}
+  </div>
+  </head>
+  <body>
+    <header class="header-section">
+      <nav class="navbar">
+        <img src="/static/images/personal.png" alt="jehbdjevhbjvwhjdvhqv shq  " width="40px" height="40px"/>
+      
+        
+      </nav>
+      <section class="hero-section">
+        <div class="hero-text-container">
+          <h1>Welcome to
+            <br />LoanTec</h1>
+          <p><b>
+            Get fast and easy loan approvals with our <br>
+            Advanced loan approval system.
+          </b></p>
+          <a href="index1" class="animated-button " style="border-radius: 10px;"><button>Apply Now</button></a>
+          <style>
+            .animated-button {
+            display: inline-block;
+            text-decoration: none;
+            }
+
+            .animated-button button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            }
+
+
+          .animated-button button:hover {
+           background-color: #2980b9;
+          transform: scale(1.1);
+          }
+
+          </style>
+        </div>
+        <div class="hero-img-container">
+          <img src="/static/images/illustration-mockups.svg" alt="" />
+        </div>
+      </section>
+    </header>
+    <section class="features-section">
+      <div class="features-text-container">
+        <h1>  Efficient Loan Approvals</h1>
+        <p>
+          <b>
+            our advanced loan approval system ensures efficient and 
+            
+            approvals for <br> all types of loan.
+          </b>
+        </p>
+
+
+      </div>
+      <div class="features-img-container">
+        <img src="/static/images/illustration-grow-together.svg" alt="" />
+      </div>
+    </section>
+    <section class="info-section">
+      <div class="info-img-container">
+        <img src="/static/images/illustration-flowing-conversation.svg" alt="" />
+      </div>
+      <div class="info-text-container">
+        <h1>Accurate Prediction</h1>
+        <ul>
+          <li>
+              <h2>AI-Powered Decisioning</h2>
+              <p>Harness the intelligence of <em>AI</em> for data-driven and accurate loan approvals.</p>
+          </li>
+          <li>
+              <h2>Instant Application Processing</h2>
+              <p>Streamline the loan application process with rapid, real-time evaluations.</p>
+          </li>
+          <li>
+              <h2>Customizable Risk Assessment</h2>
+              <p>Tailor risk assessment models to align with your unique lending criteria.</p>
+          </li>
+    
+      </ul>
+      
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="features-text-container">
+        <h1>What Our Customers Say</h1>
+        <p><b>
+          <i>
+                LoanTec made the loan approval process quickly and hassle-free. <br>
+                Highly recommended !
+          </i>
+        </b>
+        </p>
+      </div>
+      <div class="features-img-container">
+        <img src="/static/images/illustration-your-users.svg" alt="" />
+      </div>
+    </section>
+    <section class="clt-section">
+      <div class="clt-container">
+        <h1>Apply For Loan !</h1>
+        <a href="index1" class="round-button">Get Started For Free</a>
+        <style>
+          /* Style for the button */
+          .round-button {
+              display: inline-block;
+              padding: 15px 30px;
+              background-color: #3498db;
+              border: none;
+              border-radius: 50%;
+              color: #ffffff;
+              font-size: 16px;
+              text-align: center;
+              text-decoration: none;
+              transition: background-color 0.3s, transform 0.3s;
+          }
+  
+          /* Animation on hover */
+          .round-button:hover {
+              background-color: #2980b9;
+              transform: scale(1.1);
+          }
+      </style>
+
+      </div>
+    </section>
+    <footer class="footer-section">
+      <img src="/static/images/logo-1.svg" alt="" />
+      <section class="footer-container">
+        <div class="personal-info-container">
+          <h2>
+            Pankaj Chaudhary
+          </h2>
+          <div class="location">
+            <img src="/static/images/icon-location.svg" alt="" />
+            <p>
+               <h2>
+                Malad East Mumbai-400097
+               </h2>
+            </p
+            >
+          </div>
+          <div class="email">
+            <img src="/static/images/icon-email.svg" alt="" />
+            <p>pc8171468@gmail.com</p>
+          </div>
+          <div class="phone">
+            <img src="/static/images/icon-phone.svg" alt="" />
+            <p>+91 8928408593</p>
+          </div>
+        </div>
+        <div class="menu-container">
+          <a href="#">About us</a>
+          <a href="#">What we do</a>
+          <a href="index1">Loan Approvls</a>
+        </div>
+        <div class="menu-container">
+          <a href="#">Carrier</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact us</a>
+         
+
+        </div>
+        <div class="social-container">
+          <img src="/static/images/icon-facebook.svg" alt="" />
+          <img src="/static/images/icon-instagram.svg" alt="" />
+          <img src="/static/images/icon-twitter.svg" alt="" />
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
